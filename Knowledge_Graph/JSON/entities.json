@@ -1,0 +1,1205 @@
+{
+    "entities1": [
+      {
+        "id": "person_alan_turing",
+        "type": "PERSON",
+        "label": "Alan Mathison Turing",
+        "attributes": {
+          "birth_date": "23 June 1912",
+          "death_date": "7 June 1954",
+          "birth_place": "Maida Vale, London",
+          "description": "Alan Mathison Turing was an English mathematician, computer scientist, logician, cryptanalyst, philosopher and theoretical biologist. He was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer. Turing is widely considered to be the father of theoretical computer science."
+        }
+      },
+      {
+        "id": "person_julius_turing",
+        "type": "PERSON",
+        "label": "Julius Mathison Turing",
+        "attributes": {
+          "description": "Julius Mathison Turing was Alan Turing's father who worked in the Indian Civil Service (ICS) of the British Raj government at Chatrapur."
+        }
+      },
+      {
+        "id": "person_ethel_turing",
+        "type": "PERSON",
+        "label": "Ethel Sara Turing",
+        "attributes": {
+          "maiden_name": "Stoney",
+          "description": "Ethel Sara Turing was Alan Turing's mother, daughter of Edward Waller Stoney, chief engineer of the Madras Railways. She was from a Protestant Anglo-Irish gentry family."
+        }
+      },
+      {
+        "id": "person_john_turing",
+        "type": "PERSON",
+        "label": "John Ferrier Turing",
+        "attributes": {
+          "description": "John Ferrier Turing was Alan Turing's elder brother and father of Dermot Turing, 12th Baronet of the Turing baronets."
+        }
+      },
+      {
+        "id": "org_princeton_math",
+        "type": "ORGANIZATION",
+        "label": "Department of Mathematics at Princeton",
+        "attributes": {
+          "description": "The department where Alan Turing obtained his PhD in June 1938."
+        }
+      },
+      {
+        "id": "place_maida_vale",
+        "type": "PLACE",
+        "label": "Maida Vale, London",
+        "attributes": {
+          "description": "The place in London where Alan Turing was born on 23 June 1912."
+        }
+      },
+      {
+        "id": "place_hastings",
+        "type": "PLACE",
+        "label": "Hastings",
+        "attributes": {
+          "description": "A place in the United Kingdom where Turing stayed during childhood while his parents traveled between the UK and India."
+        }
+      },
+      {
+        "id": "place_guildford",
+        "type": "PLACE",
+        "label": "Guildford",
+        "attributes": {
+          "description": "The location where Turing's parents purchased a house in 1927, and where Turing lived during school holidays."
+        }
+      },
+      {
+        "id": "place_st_leonards",
+        "type": "PLACE",
+        "label": "St Leonards-on-Sea",
+        "attributes": {
+          "description": "The location of Baston Lodge, Upper Maze Hill, where Turing stayed during childhood."
+        }
+      },
+      {
+        "id": "place_princeton",
+        "type": "PLACE",
+        "label": "Princeton University",
+        "attributes": {
+          "description": "The university where Turing studied from September 1936 to July 1938, mostly under Church."
+        }
+      },
+      {
+        "id": "concept_turing_machine",
+        "type": "CONCEPT",
+        "label": "Turing Machine",
+        "attributes": {
+          "description": "A mathematical model of computation that defines an abstract machine that manipulates symbols on a strip of tape according to a table of rules. It can be considered a model of a general-purpose computer."
+        }
+      },
+      {
+        "id": "concept_universal_machine",
+        "type": "CONCEPT",
+        "label": "Universal Machine",
+        "attributes": {
+          "description": "A notion included in Turing's proof, now known as a universal Turing machine, with the idea that such a machine could perform the tasks of any other computation machine."
+        }
+      },
+      {
+        "id": "concept_ordinal_logic",
+        "type": "CONCEPT",
+        "label": "Ordinal Logic",
+        "attributes": {
+          "description": "A concept introduced in Turing's dissertation, 'Systems of Logic Based on Ordinals'."
+        }
+      },
+      {
+        "id": "concept_relative_computing",
+        "type": "CONCEPT",
+        "label": "Relative Computing",
+        "attributes": {
+          "description": "A notion introduced in Turing's dissertation, in which Turing machines are augmented with so-called oracles, allowing the study of problems that cannot be solved by Turing machines."
+        }
+      },
+      {
+        "id": "work_dissertation",
+        "type": "WORK",
+        "label": "Systems of Logic Based on Ordinals",
+        "attributes": {
+          "date": "June 1938",
+          "description": "Turing's PhD dissertation that introduced the concept of ordinal logic and the notion of relative computing."
+        }
+      },
+      {
+        "id": "org_st_michael",
+        "type": "ORGANIZATION",
+        "label": "St Michael's",
+        "attributes": {
+          "description": "A primary school at 20 Charles Road, St Leonards-on-Sea, where Turing was enrolled from the age of six to nine."
+        }
+      },
+      {
+        "id": "org_hazelhurst",
+        "type": "ORGANIZATION",
+        "label": "Hazelhurst Preparatory School",
+        "attributes": {
+          "description": "An independent school in the village of Frant in Sussex where Turing was educated between January 1922 and 1926."
+        }
+      },
+      {
+        "id": "org_sherborne",
+        "type": "ORGANIZATION",
+        "label": "Sherborne School",
+        "attributes": {
+          "description": "An independent boarding school in the market town of Sherborne in Dorset, where Turing boarded at Westcott House from 1926, at the age of 13."
+        }
+      },
+      {
+        "id": "event_birth",
+        "type": "EVENT",
+        "label": "Birth of Alan Turing",
+        "attributes": {
+          "date": "23 June 1912",
+          "description": "Alan Turing was born on 23 June 1912 in Maida Vale, London."
+        }
+      },
+      {
+        "id": "event_phd_completion",
+        "type": "EVENT",
+        "label": "PhD Completion",
+        "attributes": {
+          "date": "June 1938",
+          "description": "In June 1938, Turing obtained his PhD from the Department of Mathematics at Princeton."
+        }
+      }
+    ],
+    "relationships1": [
+      {
+        "source": "person_alan_turing",
+        "target": "person_julius_turing",
+        "type": "CHILD_OF",
+        "attributes": {
+          "description": "Alan Turing was the son of Julius Mathison Turing."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "person_ethel_turing",
+        "type": "CHILD_OF",
+        "attributes": {
+          "description": "Alan Turing was the son of Ethel Sara Turing."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "person_john_turing",
+        "type": "SIBLING_OF",
+        "attributes": {
+          "sibling_type": "younger brother",
+          "description": "Alan Turing had an elder brother, John Ferrier Turing."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "place_maida_vale",
+        "type": "BORN_IN",
+        "attributes": {
+          "date": "23 June 1912",
+          "description": "Alan Turing was born in Maida Vale, London, on 23 June 1912."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "place_hastings",
+        "type": "LIVED_IN",
+        "attributes": {
+          "time_period": "childhood",
+          "description": "During childhood, Turing stayed in Hastings while his parents traveled between the UK and India."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "place_st_leonards",
+        "type": "LIVED_IN",
+        "attributes": {
+          "location": "Baston Lodge, Upper Maze Hill",
+          "description": "At Hastings, Turing stayed at Baston Lodge, Upper Maze Hill, St Leonards-on-Sea."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "place_guildford",
+        "type": "LIVED_IN",
+        "attributes": {
+          "time_period": "school holidays",
+          "start_date": "1927",
+          "description": "Turing lived in Guildford during school holidays, where his parents purchased a house in 1927."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "place_princeton",
+        "type": "STUDIED_AT",
+        "attributes": {
+          "time_period": "September 1936 to July 1938",
+          "description": "From September 1936 to July 1938, Turing spent most of his time studying under Church at Princeton University."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "org_princeton_math",
+        "type": "OBTAINED_DEGREE_FROM",
+        "attributes": {
+          "degree": "PhD",
+          "date": "June 1938",
+          "description": "In June 1938, Turing obtained his PhD from the Department of Mathematics at Princeton."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "work_dissertation",
+        "type": "AUTHORED",
+        "attributes": {
+          "date": "June 1938",
+          "description": "Turing's dissertation, 'Systems of Logic Based on Ordinals', introduced the concept of ordinal logic and the notion of relative computing."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "concept_turing_machine",
+        "type": "DEVELOPED",
+        "attributes": {
+          "description": "Turing provided a formalisation of the concepts of algorithm and computation with the Turing machine."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "concept_universal_machine",
+        "type": "CONCEIVED",
+        "attributes": {
+          "description": "Turing's proof included a notion of a 'Universal Machine', with the idea that such a machine could perform the tasks of any other computation machine."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "concept_ordinal_logic",
+        "type": "INTRODUCED",
+        "attributes": {
+          "date": "June 1938",
+          "source": "dissertation",
+          "description": "Turing's dissertation introduced the concept of ordinal logic."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "concept_relative_computing",
+        "type": "INTRODUCED",
+        "attributes": {
+          "date": "June 1938",
+          "source": "dissertation",
+          "description": "Turing's dissertation introduced the notion of relative computing, in which Turing machines are augmented with so-called oracles."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "org_st_michael",
+        "type": "ATTENDED",
+        "attributes": {
+          "age_range": "six to nine",
+          "description": "Turing's parents enrolled him at St Michael's, a primary school at 20 Charles Road, St Leonards-on-Sea, from the age of six to nine."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "org_hazelhurst",
+        "type": "ATTENDED",
+        "attributes": {
+          "time_period": "January 1922 to 1926",
+          "description": "Between January 1922 and 1926, Turing was educated at Hazelhurst Preparatory School."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "org_sherborne",
+        "type": "ATTENDED",
+        "attributes": {
+          "start_date": "1926",
+          "age": "13",
+          "description": "In 1926, at the age of 13, Turing went on to Sherborne School, where he boarded at Westcott House."
+        }
+      },
+      {
+        "source": "work_dissertation",
+        "target": "concept_ordinal_logic",
+        "type": "INTRODUCES",
+        "attributes": {
+          "description": "The dissertation 'Systems of Logic Based on Ordinals' introduced the concept of ordinal logic."
+        }
+      },
+      {
+        "source": "work_dissertation",
+        "target": "concept_relative_computing",
+        "type": "INTRODUCES",
+        "attributes": {
+          "description": "The dissertation 'Systems of Logic Based on Ordinals' introduced the notion of relative computing with oracle machines."
+        }
+      },
+      {
+        "source": "concept_turing_machine",
+        "target": "concept_universal_machine",
+        "type": "GENERALIZES_TO",
+        "attributes": {
+          "description": "The concept of a Universal Machine (universal Turing machine) generalizes the Turing machine to perform tasks of any other computation machine."
+        }
+      }
+    ],
+
+    "entities2": [
+      {
+        "id": "person_alan_turing",
+        "type": "PERSON",
+        "label": "Alan Turing",
+        "attributes": {
+          "description": "Student at Sherborne School who formed a significant friendship with Christopher Morcom."
+        }
+      },
+      {
+        "id": "person_christopher_morcom",
+        "type": "PERSON",
+        "label": "Christopher Collan Morcom",
+        "attributes": {
+          "birth_date": "13 July 1911",
+          "death_date": "13 February 1930",
+          "description": "Fellow pupil at Sherborne School who has been described as Turing's first love."
+        }
+      },
+      {
+        "id": "person_frances_morcom",
+        "type": "PERSON",
+        "label": "Frances Isobel Morcom",
+        "attributes": {
+          "maiden_name": "Swan",
+          "description": "Christopher Morcom's mother, with whom Turing maintained a relationship long after Christopher's death."
+        }
+      },
+      {
+        "id": "org_sherborne",
+        "type": "ORGANIZATION",
+        "label": "Sherborne School",
+        "attributes": {
+          "description": "The school where Turing met and formed a friendship with Christopher Morcom."
+        }
+      },
+      {
+        "id": "event_morcom_death",
+        "type": "EVENT",
+        "label": "Death of Christopher Morcom",
+        "attributes": {
+          "date": "13 February 1930",
+          "cause": "Complications of bovine tuberculosis, contracted after drinking infected cow's milk",
+          "description": "The death of Christopher Morcom which caused Turing great sorrow."
+        }
+      },
+      {
+        "id": "letter_to_frances_1",
+        "type": "DOCUMENT",
+        "label": "First Letter to Frances Morcom",
+        "attributes": {
+          "approximate_date": "After February 1930",
+          "content_excerpt": "I am sure I could not have found anywhere another companion so brilliant and yet so charming and unconceited. I regarded my interest in my work, and in such things as astronomy (to which he introduced me) as something to be shared with him and I think he felt a little the same about me ... I know I must put as much energy if not as much interest into my work as if he were alive, because that is what he would like me to do.",
+          "description": "Letter from Turing to Christopher Morcom's mother expressing his grief and determination to continue their shared interests."
+        }
+      },
+      {
+        "id": "letter_to_frances_2",
+        "type": "DOCUMENT",
+        "label": "Anniversary Letter to Frances Morcom",
+        "attributes": {
+          "date": "12 February 1933",
+          "content_excerpt": "I expect you will be thinking of Chris when this reaches you. I shall too, and this letter is just to tell you that I shall be thinking of Chris and of you tomorrow. I am sure that he is as happy now as he was when he was here. Your affectionate Alan.",
+          "description": "Letter written by Turing to Frances Morcom a day before the third anniversary of Christopher's death."
+        }
+      },
+      {
+        "id": "letter_to_frances_3",
+        "type": "DOCUMENT",
+        "label": "Letter about Spirit to Frances Morcom",
+        "attributes": {
+          "approximate_date": "After February 1930",
+          "content_excerpt": "Personally, I believe that spirit is really eternally connected with matter but certainly not by the same kind of body ... as regards the actual connection between spirit and body I consider that the body can hold on to a 'spirit', whilst the body is alive and awake the two are firmly connected. When the body is asleep I cannot guess what happens but when the body dies, the 'mechanism' of the body, holding the spirit is gone and the spirit finds a new body sooner or later, perhaps immediately.",
+          "description": "Later letter from Turing to Frances Morcom expressing his beliefs about spirit and matter."
+        }
+      },
+      {
+        "id": "concept_spirit_belief",
+        "type": "CONCEPT",
+        "label": "Belief in Spirit",
+        "attributes": {
+          "description": "Turing's belief at this point in his life in concepts such as a spirit, independent of the body and surviving death."
+        }
+      },
+      {
+        "id": "interest_astronomy",
+        "type": "INTEREST",
+        "label": "Astronomy",
+        "attributes": {
+          "description": "An interest that Christopher Morcom introduced to Alan Turing."
+        }
+      },
+      {
+        "id": "concept_atheism_materialism",
+        "type": "CONCEPT",
+        "label": "Atheism and Materialism",
+        "attributes": {
+          "description": "Philosophical positions that some have speculated were caused in Turing by Morcom's death."
+        }
+      }
+    ],
+    "relationships2": [
+      {
+        "source": "person_alan_turing",
+        "target": "person_christopher_morcom",
+        "type": "FRIEND_OF",
+        "attributes": {
+          "relationship_quality": "significant friendship",
+          "emotional_depth": "first love",
+          "location": "Sherborne School",
+          "description": "At Sherborne, Turing formed a significant friendship with fellow pupil Christopher Collan Morcom, who has been described as Turing's first love."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "org_sherborne",
+        "type": "ATTENDED",
+        "attributes": {
+          "description": "Alan Turing was a student at Sherborne School."
+        }
+      },
+      {
+        "source": "person_christopher_morcom",
+        "target": "org_sherborne",
+        "type": "ATTENDED",
+        "attributes": {
+          "description": "Christopher Morcom was a student at Sherborne School."
+        }
+      },
+      {
+        "source": "person_christopher_morcom",
+        "target": "event_morcom_death",
+        "type": "SUBJECT_OF",
+        "attributes": {
+          "description": "Christopher Morcom died on 13 February 1930 from complications of bovine tuberculosis."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "event_morcom_death",
+        "type": "AFFECTED_BY",
+        "attributes": {
+          "emotional_impact": "great sorrow",
+          "response": "working harder on shared scientific and mathematical topics",
+          "description": "The event caused Turing great sorrow. He coped with his grief by working that much harder on the topics of science and mathematics that he had shared with Morcom."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "person_frances_morcom",
+        "type": "CORRESPONDED_WITH",
+        "attributes": {
+          "duration": "long after Morcom's death",
+          "nature": "letters from Turing, gifts from Frances",
+          "frequency": "typically on Morcom's birthday",
+          "description": "Turing's relationship with Morcom's mother continued long after Morcom's death, with her sending gifts to Turing, and him sending letters, typically on Morcom's birthday."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "letter_to_frances_1",
+        "type": "AUTHORED",
+        "attributes": {
+          "recipient": "Frances Isobel Morcom",
+          "description": "Turing wrote a letter to Morcom's mother expressing his grief and determination."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "letter_to_frances_2",
+        "type": "AUTHORED",
+        "attributes": {
+          "recipient": "Frances Isobel Morcom",
+          "occasion": "Day before third anniversary of Morcom's death",
+          "date": "12 February 1933",
+          "description": "A day before the third anniversary of Morcom's death (13 February 1933), Turing wrote to Mrs. Morcom."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "letter_to_frances_3",
+        "type": "AUTHORED",
+        "attributes": {
+          "recipient": "Frances Isobel Morcom",
+          "subject": "beliefs about spirit and matter",
+          "description": "In a later letter, also written to Morcom's mother, Turing wrote about his beliefs regarding spirit and matter."
+        }
+      },
+      {
+        "source": "letter_to_frances_1",
+        "target": "person_frances_morcom",
+        "type": "ADDRESSED_TO",
+        "attributes": {
+          "description": "The letter was addressed to Frances Morcom, Christopher's mother."
+        }
+      },
+      {
+        "source": "letter_to_frances_2",
+        "target": "person_frances_morcom",
+        "type": "ADDRESSED_TO",
+        "attributes": {
+          "description": "The anniversary letter was addressed to Frances Morcom, Christopher's mother."
+        }
+      },
+      {
+        "source": "letter_to_frances_3",
+        "target": "person_frances_morcom",
+        "type": "ADDRESSED_TO",
+        "attributes": {
+          "description": "The letter about spirit was addressed to Frances Morcom, Christopher's mother."
+        }
+      },
+      {
+        "source": "person_christopher_morcom",
+        "target": "interest_astronomy",
+        "type": "INTERESTED_IN",
+        "attributes": {
+          "description": "Christopher Morcom was interested in astronomy and introduced it to Alan Turing."
+        }
+      },
+      {
+        "source": "person_christopher_morcom",
+        "target": "person_alan_turing",
+        "type": "INFLUENCED",
+        "attributes": {
+          "area": "academic interests",
+          "specific_interests": "science, mathematics, astronomy",
+          "description": "Their relationship provided inspiration in Turing's future endeavours."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "interest_astronomy",
+        "type": "INTRODUCED_TO",
+        "attributes": {
+          "introduced_by": "Christopher Morcom",
+          "description": "Christopher Morcom introduced Alan Turing to astronomy."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "concept_spirit_belief",
+        "type": "HELD_BELIEF",
+        "attributes": {
+          "time_period": "after Morcom's death",
+          "description": "At this point in his life, Turing still believed in such concepts as a spirit, independent of the body and surviving death."
+        }
+      },
+      {
+        "source": "event_morcom_death",
+        "target": "concept_atheism_materialism",
+        "type": "POSSIBLY_CAUSED",
+        "attributes": {
+          "certainty": "speculated",
+          "description": "Some have speculated that Morcom's death was the cause of Turing's atheism and materialism."
+        }
+      }
+    ],
+    "entities3": [
+      {
+        "id": "person_alan_turing",
+        "type": "PERSON",
+        "label": "Alan Turing",
+        "attributes": {
+          "description": "British mathematician, computer scientist, and logician who made significant contributions to theoretical computer science."
+        }
+      },
+      {
+        "id": "person_max_newman",
+        "type": "PERSON",
+        "label": "Max Newman",
+        "attributes": {
+          "description": "Mathematician to whom Turing sent the first draft typescript of his investigations on decidability problems."
+        }
+      },
+      {
+        "id": "person_alonzo_church",
+        "type": "PERSON",
+        "label": "Alonzo Church",
+        "attributes": {
+          "description": "Mathematician who published work with similar conclusions to Turing's on decidability problems and developed lambda calculus."
+        }
+      },
+      {
+        "id": "person_john_von_neumann",
+        "type": "PERSON",
+        "label": "John von Neumann",
+        "attributes": {
+          "description": "Mathematician and physicist who acknowledged that the central concept of the modern computer was due to Turing's paper and wanted to hire Turing as his postdoctoral assistant."
+        }
+      },
+      {
+        "id": "person_abram_besicovitch",
+        "type": "PERSON",
+        "label": "Abram Besicovitch",
+        "attributes": {
+          "description": "Mathematician who wrote a report for the committee evaluating Turing's work for fellowship."
+        }
+      },
+      {
+        "id": "person_kurt_godel",
+        "type": "PERSON",
+        "label": "Kurt Gödel",
+        "attributes": {
+          "description": "Mathematician whose incompleteness theorems were reformulated by Turing in his work on computable numbers."
+        }
+      },
+      {
+        "id": "person_david_hilbert",
+        "type": "PERSON",
+        "label": "David Hilbert",
+        "attributes": {
+          "description": "German mathematician who originally posed the Entscheidungsproblem (decision problem) in 1928."
+        }
+      },
+      {
+        "id": "person_jarl_waldemar_lindeberg",
+        "type": "PERSON",
+        "label": "Jarl Waldemar Lindeberg",
+        "attributes": {
+          "description": "Mathematician who had already proven in 1922 the version of the central limit theorem that Turing proved in his dissertation."
+        }
+      },
+      {
+        "id": "org_kings_college",
+        "type": "ORGANIZATION",
+        "label": "King's College, Cambridge",
+        "attributes": {
+          "description": "The college where Turing studied as an undergraduate and was later elected as a Fellow."
+        }
+      },
+      {
+        "id": "org_princeton_university",
+        "type": "ORGANIZATION",
+        "label": "Princeton University",
+        "attributes": {
+          "description": "The university where Turing studied under Church and obtained his PhD."
+        }
+      },
+      {
+        "id": "org_princeton_math_dept",
+        "type": "ORGANIZATION",
+        "label": "Department of Mathematics at Princeton",
+        "attributes": {
+          "description": "The department from which Turing obtained his PhD in June 1938."
+        }
+      },
+      {
+        "id": "journal_lms",
+        "type": "ORGANIZATION",
+        "label": "Journal of the London Mathematical Society",
+        "attributes": {
+          "description": "The journal in which Turing published his first paper and later his paper on computable numbers."
+        }
+      },
+      {
+        "id": "work_gaussian_error",
+        "type": "WORK",
+        "label": "On the Gaussian error function",
+        "attributes": {
+          "type": "dissertation",
+          "completion_date": "November 1934",
+          "deadline_date": "6 December 1934",
+          "acceptance_date": "16 March 1935",
+          "description": "Turing's undergraduate dissertation that proved a version of the central limit theorem."
+        }
+      },
+      {
+        "id": "work_first_paper",
+        "type": "WORK",
+        "label": "Equivalence of left and right almost periodicity",
+        "attributes": {
+          "type": "paper",
+          "submission_date": "23 April 1935",
+          "publication_venue": "Journal of the London Mathematical Society",
+          "volume": "tenth volume",
+          "length": "one-page article",
+          "description": "Turing's first published paper."
+        }
+      },
+      {
+        "id": "work_computable_numbers",
+        "type": "WORK",
+        "label": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+        "attributes": {
+          "type": "paper",
+          "completion_date": "28 May 1936",
+          "publication_venue": "Proceedings of the London Mathematical Society",
+          "publication_dates": "first part on 30 November 1936, second part on 23 December 1936",
+          "length": "36-page paper",
+          "significance": "easily the most influential math paper in history",
+          "description": "Paper in which Turing reformulated Gödel's results and introduced what became known as Turing machines."
+        }
+      },
+      {
+        "id": "work_church_paper",
+        "type": "WORK",
+        "label": "An Unsolvable Problem of Elementary Number Theory",
+        "attributes": {
+          "type": "paper",
+          "author": "Alonzo Church",
+          "publication_date": "mid-April 1936",
+          "description": "Church's paper with similar conclusions to Turing's then-yet unpublished work."
+        }
+      },
+      {
+        "id": "work_phd_dissertation",
+        "type": "WORK",
+        "label": "Systems of Logic Based on Ordinals",
+        "attributes": {
+          "type": "PhD dissertation",
+          "completion_date": "June 1938",
+          "description": "Turing's PhD dissertation that introduced the concept of ordinal logic and the notion of relative computing."
+        }
+      },
+      {
+        "id": "concept_turing_machine",
+        "type": "CONCEPT",
+        "label": "Turing Machine",
+        "attributes": {
+          "description": "Formal and simple hypothetical devices introduced by Turing that became central to the theory of computation."
+        }
+      },
+      {
+        "id": "concept_universal_machine",
+        "type": "CONCEPT",
+        "label": "Universal Machine",
+        "attributes": {
+          "description": "A machine that could perform the tasks of any other computation machine, now known as a universal Turing machine."
+        }
+      },
+      {
+        "id": "concept_halting_problem",
+        "type": "CONCEPT",
+        "label": "Halting Problem",
+        "attributes": {
+          "description": "The problem of determining whether a Turing machine will ever halt, which Turing proved to be undecidable."
+        }
+      },
+      {
+        "id": "concept_entscheidungsproblem",
+        "type": "CONCEPT",
+        "label": "Entscheidungsproblem",
+        "attributes": {
+          "description": "The decision problem originally posed by David Hilbert in 1928, which Turing proved had no solution."
+        }
+      },
+      {
+        "id": "concept_church_turing_thesis",
+        "type": "CONCEPT",
+        "label": "Church–Turing thesis",
+        "attributes": {
+          "description": "The thesis that Turing machines and the lambda calculus are capable of computing anything that is computable."
+        }
+      },
+      {
+        "id": "concept_ordinal_logic",
+        "type": "CONCEPT",
+        "label": "Ordinal Logic",
+        "attributes": {
+          "description": "A concept introduced in Turing's PhD dissertation."
+        }
+      },
+      {
+        "id": "concept_relative_computing",
+        "type": "CONCEPT",
+        "label": "Relative Computing",
+        "attributes": {
+          "description": "A notion introduced in Turing's PhD dissertation, in which Turing machines are augmented with so-called oracles."
+        }
+      },
+      {
+        "id": "concept_lambda_calculus",
+        "type": "CONCEPT",
+        "label": "Lambda Calculus",
+        "attributes": {
+          "description": "A formal system developed by Church that, like Turing machines, is capable of computing anything that is computable."
+        }
+      },
+      {
+        "id": "concept_central_limit_theorem",
+        "type": "CONCEPT",
+        "label": "Central Limit Theorem",
+        "attributes": {
+          "description": "A theorem in probability theory that Turing proved a version of in his undergraduate dissertation."
+        }
+      },
+      {
+        "id": "fellowship_kings",
+        "type": "POSITION",
+        "label": "Fellow of King's College",
+        "attributes": {
+          "institution": "King's College, Cambridge",
+          "role": "lecturer",
+          "description": "Fellowship position to which Turing was elected on the strength of his dissertation."
+        }
+      },
+      {
+        "id": "fellowship_jane_eliza_procter",
+        "type": "POSITION",
+        "label": "Jane Eliza Procter Visiting Fellow",
+        "attributes": {
+          "institution": "Princeton University",
+          "time_period": "second year at Princeton (1937-1938)",
+          "description": "Visiting fellowship held by Turing during his second year at Princeton."
+        }
+      },
+      {
+        "id": "device_binary_multiplier",
+        "type": "ARTIFACT",
+        "label": "Electro-mechanical binary multiplier",
+        "attributes": {
+          "completion_status": "three of four stages",
+          "time_period": "1936-1938",
+          "location": "Princeton University",
+          "description": "A device that Turing built during his time at Princeton."
+        }
+      }
+    ],
+    "relationships3": [
+      {
+        "source": "person_alan_turing",
+        "target": "org_kings_college",
+        "type": "STUDIED_AT",
+        "attributes": {
+          "program": "undergraduate",
+          "time_period": "February 1931 to November 1934",
+          "field": "mathematics",
+          "result": "first-class honours",
+          "description": "Turing studied the undergraduate course in Schedule B from February 1931 to November 1934 at King's College, Cambridge, where he was awarded first-class honours in mathematics."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "org_kings_college",
+        "type": "STUDIED_AT",
+        "attributes": {
+          "program": "master's course (Part III)",
+          "start_date": "Spring 1935",
+          "completion_date": "1937",
+          "description": "Turing started his master's course (Part III) in Spring 1935, which he completed in 1937."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "fellowship_kings",
+        "type": "HELD_POSITION",
+        "attributes": {
+          "basis": "strength of his dissertation",
+          "description": "Turing was elected a Fellow of King's College on the strength of his dissertation where he served as a lecturer."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "org_princeton_university",
+        "type": "STUDIED_AT",
+        "attributes": {
+          "time_period": "September 1936 to July 1938",
+          "advisor": "Alonzo Church",
+          "description": "From September 1936 to July 1938, Turing spent most of his time studying under Church at Princeton University."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "fellowship_jane_eliza_procter",
+        "type": "HELD_POSITION",
+        "attributes": {
+          "year": "second year at Princeton",
+          "description": "Turing was a Jane Eliza Procter Visiting Fellow during his second year at Princeton."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "org_princeton_math_dept",
+        "type": "OBTAINED_DEGREE_FROM",
+        "attributes": {
+          "degree": "PhD",
+          "date": "June 1938",
+          "description": "In June 1938, Turing obtained his PhD from the Department of Mathematics at Princeton."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "work_gaussian_error",
+        "type": "AUTHORED",
+        "attributes": {
+          "time_period": "senior year",
+          "delivery_date": "November 1934",
+          "description": "Turing's dissertation, On the Gaussian error function, written during his senior year and delivered in November 1934, proved a version of the central limit theorem."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "work_first_paper",
+        "type": "AUTHORED",
+        "attributes": {
+          "submission_date": "23 April 1935",
+          "description": "Turing published his first paper, a one-page article called Equivalence of left and right almost periodicity."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "work_computable_numbers",
+        "type": "AUTHORED",
+        "attributes": {
+          "completion_date": "28 May 1936",
+          "description": "Turing finished and delivered his 36-page paper for publication called 'On Computable Numbers, with an Application to the Entscheidungsproblem'."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "work_phd_dissertation",
+        "type": "AUTHORED",
+        "attributes": {
+          "date": "June 1938",
+          "description": "Turing's dissertation, Systems of Logic Based on Ordinals, introduced the concept of ordinal logic and the notion of relative computing."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "device_binary_multiplier",
+        "type": "BUILT",
+        "attributes": {
+          "extent": "three of four stages",
+          "location": "Princeton University",
+          "time_period": "1936-1938",
+          "description": "In addition to his purely mathematical work, Turing studied cryptology and also built three of four stages of an electro-mechanical binary multiplier."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "person_max_newman",
+        "type": "SENT_WORK_TO",
+        "attributes": {
+          "work": "first draft typescript on decidability problems",
+          "date": "mid-April 1936",
+          "description": "In mid-April 1936, Turing sent Max Newman the first draft typescript of his investigations."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "concept_turing_machine",
+        "type": "INTRODUCED",
+        "attributes": {
+          "date": "1936",
+          "work": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "description": "Turing reformulated Kurt Gödel's 1931 results on the limits of proof and computation, replacing Gödel's universal arithmetic-based formal language with the formal and simple hypothetical devices that became known as Turing machines."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "concept_universal_machine",
+        "type": "INTRODUCED",
+        "attributes": {
+          "date": "1936",
+          "work": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "description": "Turing's paper included a notion of a 'Universal Machine' (now known as a universal Turing machine), with the idea that such a machine could perform the tasks of any other computation machine."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "concept_halting_problem",
+        "type": "PROVED_UNDECIDABILITY",
+        "attributes": {
+          "date": "1936",
+          "description": "Turing proved that there was no solution to the decision problem by first showing that the halting problem for Turing machines is undecidable."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "concept_entscheidungsproblem",
+        "type": "PROVED_NO_SOLUTION",
+        "attributes": {
+          "date": "1936",
+          "method": "via the halting problem",
+          "description": "Turing proved that there was no solution to the decision problem (Entscheidungsproblem)."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "concept_ordinal_logic",
+        "type": "INTRODUCED",
+        "attributes": {
+          "date": "June 1938",
+          "work": "Systems of Logic Based on Ordinals",
+          "description": "Turing's dissertation introduced the concept of ordinal logic."
+        }
+      },
+      {
+        "source": "person_alan_turing",
+        "target": "concept_relative_computing",
+        "type": "INTRODUCED",
+        "attributes": {
+          "date": "June 1938",
+          "work": "Systems of Logic Based on Ordinals",
+          "description": "Turing's dissertation introduced the notion of relative computing, in which Turing machines are augmented with so-called oracles."
+        }
+      },
+      {
+        "source": "person_alonzo_church",
+        "target": "person_alan_turing",
+        "type": "ADVISED",
+        "attributes": {
+          "institution": "Princeton University",
+          "time_period": "September 1936 to July 1938",
+          "description": "Turing spent most of his time studying under Church at Princeton University."
+        }
+      },
+      {
+        "source": "person_alonzo_church",
+        "target": "work_church_paper",
+        "type": "AUTHORED",
+        "attributes": {
+          "date": "mid-April 1936",
+          "description": "Church published his An Unsolvable Problem of Elementary Number Theory, with similar conclusions to Turing's then-yet unpublished work."
+        }
+      },
+      {
+        "source": "person_alonzo_church",
+        "target": "concept_lambda_calculus",
+        "type": "DEVELOPED",
+        "attributes": {
+          "description": "Church developed the lambda calculus, which like Turing machines, is capable of computing anything that is computable."
+        }
+      },
+      {
+        "source": "person_john_von_neumann",
+        "target": "work_computable_numbers",
+        "type": "ACKNOWLEDGED_IMPORTANCE",
+        "attributes": {
+          "specific_aspect": "central concept of the modern computer",
+          "description": "John von Neumann acknowledged that the central concept of the modern computer was due to Turing's paper."
+        }
+      },
+      {
+        "source": "person_john_von_neumann",
+        "target": "person_alan_turing",
+        "type": "ATTEMPTED_TO_HIRE",
+        "attributes": {
+          "position": "postdoctoral assistant",
+          "outcome": "Turing went back to the United Kingdom",
+          "description": "John von Neumann wanted to hire him as his postdoctoral assistant, but he went back to the United Kingdom."
+        }
+      },
+      {
+        "source": "person_abram_besicovitch",
+        "target": "work_gaussian_error",
+        "type": "EVALUATED",
+        "attributes": {
+          "role": "committee report writer",
+          "evaluation": "if published before Lindeberg's work, would have been 'an important event in the mathematical literature of that year'",
+          "description": "Abram Besicovitch's report for the committee went so far as to say that if Turing's work had been published before Lindeberg's, it would have been 'an important event in the mathematical literature of that year'."
+        }
+      },
+      {
+        "source": "person_kurt_godel",
+        "target": "person_alan_turing",
+        "type": "INFLUENCED",
+        "attributes": {
+          "specific_work": "incompleteness theorems from 1931",
+          "description": "Turing reformulated Kurt Gödel's 1931 results on the limits of proof and computation."
+        }
+      },
+      {
+        "source": "person_david_hilbert",
+        "target": "concept_entscheidungsproblem",
+        "type": "POSED",
+        "attributes": {
+          "date": "1928",
+          "description": "The Entscheidungsproblem (decision problem) was originally posed by German mathematician David Hilbert in 1928."
+        }
+      },
+      {
+        "source": "person_jarl_waldemar_lindeberg",
+        "target": "concept_central_limit_theorem",
+        "type": "PROVED_VERSION",
+        "attributes": {
+          "date": "1922",
+          "description": "This version of the theorem Turing proved in his paper had already been proven, in 1922, by Jarl Waldemar Lindeberg."
+        }
+      },
+      {
+        "source": "work_gaussian_error",
+        "target": "concept_central_limit_theorem",
+        "type": "PROVED_VERSION",
+        "attributes": {
+          "date": "1934",
+          "description": "Turing's dissertation proved a version of the central limit theorem."
+        }
+      },
+      {
+        "source": "work_computable_numbers",
+        "target": "journal_lms",
+        "type": "PUBLISHED_IN",
+        "attributes": {
+          "publication_format": "two parts",
+          "publication_dates": "first on 30 November and the second on 23 December 1936",
+          "description": "It was published in the Proceedings of the London Mathematical Society journal in two parts."
+        }
+      },
+      {
+        "source": "work_first_paper",
+        "target": "journal_lms",
+        "type": "PUBLISHED_IN",
+        "attributes": {
+          "volume": "tenth volume",
+          "description": "Turing's first paper was featured in the tenth volume of the Journal of the London Mathematical Society."
+        }
+      },
+      {
+        "source": "work_phd_dissertation",
+        "target": "concept_ordinal_logic",
+        "type": "INTRODUCES",
+        "attributes": {
+          "description": "Turing's dissertation introduced the concept of ordinal logic."
+        }
+      },
+      {
+        "source": "work_phd_dissertation",
+        "target": "concept_relative_computing",
+        "type": "INTRODUCES",
+        "attributes": {
+          "description": "Turing's dissertation introduced the notion of relative computing with oracle machines."
+        }
+      },
+      {
+        "source": "concept_turing_machine",
+        "target": "concept_universal_machine",
+        "type": "IS_GENERALIZED_BY",
+        "attributes": {
+          "description": "The universal Turing machine generalizes the concept of a Turing machine to perform the tasks of any other computation machine."
+        }
+      },
+      {
+        "source": "concept_turing_machine",
+        "target": "concept_halting_problem",
+        "type": "RELATED_TO",
+        "attributes": {
+          "relationship_type": "undecidability proof",
+          "description": "Turing proved that the halting problem for Turing machines is undecidable."
+        }
+      },
+      {
+        "source": "concept_turing_machine",
+        "target": "concept_lambda_calculus",
+        "type": "EQUIVALENT_TO",
+        "attributes": {
+          "context": "computational capability",
+          "according_to": "Church–Turing thesis",
+          "description": "According to the Church–Turing thesis, Turing machines and the lambda calculus are capable of computing anything that is computable."
+        }
+      }
+    ]
+  }
