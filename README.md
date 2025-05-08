@@ -138,6 +138,7 @@ If there are errors connecting to Neo4j:
 temporal-minds/
 ├── app.py                # Flask backend
 ├── cypher_texts.txt      # Cypher queries to create Alan Turing's Knowledge Graph
+├── Screenshots/          # Screenshots of the project implementation
 ├── package.json          # Frontend dependencies
 ├── public/               # Frontend public assets
 └── src/                  # Frontend React code
