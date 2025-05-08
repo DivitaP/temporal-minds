@@ -150,10 +150,10 @@ temporal-minds/
 ## Future Improvements
 
 1. Enhanced RAG Pipeline: Integrating more sophisticated language models
-2. Multi-Persona Knowledge Graph: Expand- ing to include multiple historical figures
-3. Improved Hallucination Prevention: Devel- oping more robust verification mechanisms
-4. Automated Knowledge Extraction: Creat- ing pipelines for extracting temporally tagged information
-5. Large Language Model Integration: Ex- ploring how larger LLMs can be integrated while maintaining constraints
+2. Multi-Persona Knowledge Graph: Expanding to include multiple historical figures
+3. Improved Hallucination Prevention: Developing more robust verification mechanisms
+4. Automated Knowledge Extraction: Creating pipelines for extracting temporally tagged information
+5. Large Language Model Integration: Exploring how larger LLMs can be integrated while maintaining constraints
 
 
 
