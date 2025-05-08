@@ -7,16 +7,12 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
 from transformers import pipeline
-
-# Import your RAG components
 from neo4j import GraphDatabase
 
-# Configuration
 NEO4J_URI = "bolt://127.0.0.1:7687"  
 NEO4J_USER = "neo4j"                 
 NEO4J_PASSWORD = "password"         
 
-# Time scope of the knowledge graph
 TIMELINE_START = "1912"  
 TIMELINE_END = "1939"    
 
@@ -50,7 +46,6 @@ class Neo4jConnector:
     def get_all_knowledge(self):
         """Extract all knowledge statements from the graph."""
         with self.driver.session() as session:
-            # Query to extract relationships and properties as natural language
             result = session.run("""
                 MATCH (n)-[r]->(m)
                 WHERE r.description IS NOT NULL
@@ -69,14 +64,11 @@ class Neo4jConnector:
         Query the knowledge graph with specific terms, providing more comprehensive
         and flexible search capabilities.
         """
-        # Normalize and process query terms
         query_terms = query_terms.lower().strip()
         
         with self.driver.session() as session:
             statements = []
             
-            # Search for relationships where the description, source entity, or target entity 
-            # matches the query terms
             result = session.run("""
                 MATCH (n)-[r]->(m)
                 WHERE r.description IS NOT NULL AND 
@@ -96,7 +88,6 @@ class Neo4jConnector:
                     "context": f"{record['source']} {record['relationship']} {record['target']}"
                 })
             
-            # Search for entity descriptions that match the query terms
             result = session.run("""
                 MATCH (n)
                 WHERE n.description IS NOT NULL AND 
@@ -114,7 +105,6 @@ class Neo4jConnector:
                     "context": f"{record['entity_type']}: {record['entity']}"
                 })
             
-            # If no results found, try breaking the query into tokens and matching any of them
             if not statements:
                 query_tokens = query_terms.split()
                 if len(query_tokens) > 1:
@@ -136,9 +126,7 @@ class Neo4jConnector:
                             "context": f"{record['source']} {record['relationship']} {record['target']}"
                         })
             
-            # Implement specific queries for known entity types if standard search returns limited results
             if len(statements) < 5 and any(term in query_terms for term in ['person', 'turing']):
-                # Specific query for persons and their relationships
                 result = session.run("""
                     MATCH (p:PERSON)-[r]->(m)
                     WHERE toLower(p.label) CONTAINS 'turing'
@@ -198,7 +186,7 @@ class LLMGenerator:
         self.generator = self._load_generator(model_choice)
         
     def _load_generator(self, model_choice):
-        device = -1  # CPU, use 0 or specific GPU ID if available
+        device = -1  
         
         if model_choice == "flan":
             return pipeline(
@@ -214,7 +202,6 @@ class LLMGenerator:
         if not retrieved_facts:
             return self._generate_no_information_response(query, timeline_scope)
         
-        # Combine retrieved facts
         context = "\n".join(retrieved_facts)
         
         if timeline_scope:
@@ -298,7 +285,7 @@ class TuringKnowledgeGraph:
         neo4j_results = self.neo4j.query_knowledge(query)
         
         if neo4j_results:
-            # If we got direct matches from Neo4j, use those
+            # If we got direct matches from Neo4j, use them
             statements = [result["statement"] for result in neo4j_results]
             
             # Add relevant context from the statement contexts
@@ -322,12 +309,10 @@ class TuringKnowledgeGraph:
         """Clean up resources."""
         self.neo4j.close()
 
-# Initialize Flask app
 app = Flask(__name__)
-# Allow frontend origin
+# Had to do this since it was giving CORS error
 CORS(app, resources={r"/chat": {"origins": "http://localhost:3000"}})
 
-# Initialize the Turing Knowledge Graph RAG system
 try:
     kg_rag = TuringKnowledgeGraph(
         neo4j_uri=NEO4J_URI,
@@ -350,7 +335,6 @@ def chat():
     data = request.get_json()
     user_message = data.get("message", "")
     
-    # Process query using the RAG system if available
     if kg_rag:
         try:
             bot_reply = kg_rag.process_query(user_message)
