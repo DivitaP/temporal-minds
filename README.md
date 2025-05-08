@@ -1,6 +1,6 @@
 # Alan Turing - Temporal Chatbot
 
-This project report presents an approach to implement data unlearning in Language Mod- els using a Neo4j knowledge graph with tem- poral constraints. We developed a Retrieval- Augmented Generation (RAG) system that lim- its responses to information from a specific his- torical period (1912-1939), using Alan Turing’s life as our case study. Our results show that knowledge graphs provide an effective mech- anism for temporal knowledge containment, though challenges remain in preventing model hallucination with ambiguous queries. This project contributes to research on controlled knowledge access in language models and pro- vides a framework for creating historically ac- curate AI personas.
+This project report presents an approach to implement data unlearning in Language Models using a Neo4j knowledge graph with temporal constraints. We developed a Retrieval Augmented Generation (RAG) system that limits responses to information from a specific historical period (1912-1939), using Alan Turing’s life as our case study. Our results show that knowledge graphs provide an effective mechanism for temporal knowledge containment, though challenges remain in preventing model hallucination with ambiguous queries. This project contributes to research on controlled knowledge access in language models and provides a framework for creating historically accurate AI personas.
 
 ## Project Overview
 
@@ -42,7 +42,7 @@ cd temporal-minds
    
    (You can use different credentials, but make sure to update them in the backend code)
 
-3. Import the Alan Turing knowledge graph data (note: You can find the cypher queries in Knowledg_Graph/cypher_texts.txt)
+3. Import the Alan Turing knowledge graph data (note: You can find the cypher queries in root directory with cypher_texts.txt)
 
 ### 3. Set up Backend
 
@@ -135,14 +135,16 @@ If there are errors connecting to Neo4j:
 ## Project Structure
 
 ```
-alan-turing-chatbot/
+temporal-minds/
 ├── app.py                # Flask backend
+├── cypher_texts.txt      # Cypher queries to create Alan Turing's Knowledge Graph
 ├── package.json          # Frontend dependencies
 ├── public/               # Frontend public assets
 └── src/                  # Frontend React code
     ├── App.js            # Main React component  
     ├── App.css           # Styling
     └── index.js          # React entry point
+
 ```
 
 ## Future Improvements
